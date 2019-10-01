@@ -20,7 +20,7 @@ test('should return true if the user says y', function(assert) {
     assert.equal(userAnswerIsCorrect, true);
 });
 
-test('should return true if the user says Ys', function(assert) {
+test('should return true if the user says Y', function(assert) {
     const userAnswer = 'Y';
     const userAnswerIsCorrect = isYes(userAnswer);
     assert.equal(userAnswerIsCorrect, true);

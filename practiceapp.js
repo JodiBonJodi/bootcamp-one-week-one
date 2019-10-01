@@ -14,6 +14,8 @@ myButton.onclick = () => {
 
     console.log(userAnswer);
 
+    const userIsCorrect = isCorrect(sanitizedUserAnswer);
+
     if (userIsCorrect) {
         alert('Right-o!');
     } else {
