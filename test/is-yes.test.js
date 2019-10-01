@@ -1,4 +1,4 @@
-import { isYes } from '../src/is-yes';
+import { isYes } from '../src/is-yes.js';
 const test = QUnit.test;
 
 // Yes cases
@@ -26,27 +26,27 @@ test('should return true if the user says Ys', function(assert) {
     assert.equal(userAnswerIsCorrect, true);
 });
 
-// No cases
+//No cases
 test('should return false if the user says no', function(assert) {
     const userAnswer = 'no';
-    const userAnswerIsCorrect = isCorrect(userAnswer);
+    const userAnswerIsCorrect = isYes(userAnswer);
     assert.equal(userAnswerIsCorrect, false);
 });
 
 test('should return false if the user says No', function(assert) {
     const userAnswer = 'No';
-    const userAnswerIsCorrect = isCorrect(userAnswer);
+    const userAnswerIsCorrect = isYes(userAnswer);
     assert.equal(userAnswerIsCorrect, false);
 });
 
 test('should return false if the user says n', function(assert) {
     const userAnswer = 'n';
-    const userAnswerIsCorrect = isCorrect(userAnswer);
+    const userAnswerIsCorrect = isYes(userAnswer);
     assert.equal(userAnswerIsCorrect, false);
 });
 
 test('should return false if the user says N', function(assert) {
     const userAnswer = 'N';
-    const userAnswerIsCorrect = isCorrect(userAnswer);
+    const userAnswerIsCorrect = isYes(userAnswer);
     assert.equal(userAnswerIsCorrect, false);
 });

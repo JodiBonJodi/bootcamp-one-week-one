@@ -1,5 +1,5 @@
-export const isCorrect = (userInput) => {
-    if (userInput === 'yes' || userInput === 'y' || userInput === 'Yes' || userInput === 'Y') {
+export const isYes = (userAnswer) => {
+    if (userAnswer === 'yes' || userAnswer === 'y' || userAnswer === 'Yes' || userAnswer === 'Y') {
         return true;
     } else {
         return false;
