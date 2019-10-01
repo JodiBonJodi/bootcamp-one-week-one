@@ -22,6 +22,14 @@ p {
     font-size: 20px;
 }
 
+button {
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #35182e;
+    color: #cfdbcd;
+    font-size: 30px;
+    width: 400px;
+}
+
 .title {
     text-align: center;
 }
