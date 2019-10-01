@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+ol {
+    font-size: 20px;
+}
+
+
+
+p {
+    font-size: 20px;
+}
+
+.studiedlizard {
+    display: flex;
+    width: 400px;
+    align-items: center;
+}
+
+.lizard {
+    display: flex;
+
+}
+

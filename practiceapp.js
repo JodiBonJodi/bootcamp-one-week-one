@@ -1,12 +1,11 @@
-// import { isYes } from './src/is-yes.js';
+import { isCorrect } from './functions.js';
 
-const myButton = document.getElementById('quiz-button');
+const myButton = document.getElementById('action-button');
 
 
 myButton.onclick = () => {
-    const userName = prompt('Hi there! What is your name?');
-    
-    const myConfirmation = prompt(userName + ', Do you want to take my quiz');
+    alert('welcome to my quiz');
+    const myConfirmation = confirm('do you want to take my quiz');
 
     console.log(myConfirmation);
 
