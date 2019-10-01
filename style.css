@@ -2,7 +2,14 @@
 
 body {
     font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #cfdbcb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+h2 {
+    color: #35182e
 }
 
 ol {
@@ -19,14 +26,60 @@ p {
     text-align: center;
 }
 
+.intro{
+    width: 1100px
+}
+
 .studiedlizard {
     display: flex;
-    width: 400px;
-    align-items: center;
+    margin-bottom: 30px;
+
 }
 
-.lizard {
+.lizardtext {
+    margin-right: 25px;
+    width: 700px;
+}
+
+
+.playsderby {
     display: flex;
-
+    margin-bottom: 30px;
 }
 
+.derbytext {
+    margin-right: 25px;
+    width: 700px;
+}
+
+.ro {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.roseytext {
+    margin-right: 25px;
+    width: 700px;
+}
+
+.lizardpic {
+    height: 300px;
+}
+
+.derbypic {
+    height: 300px;;
+}
+
+.roseypic {
+    height: 325px;
+}
+
+
+.hidden {
+    opacity: 0;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 35px;
+}

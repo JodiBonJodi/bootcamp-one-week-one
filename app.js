@@ -2,8 +2,11 @@ import { isYes } from './src/is-yes.js';
 
 const myButton = document.getElementById('quiz-button');
 let scoreCount = 0;
+const user = document.getElementById('userName');
+const score = document.getElementById('scoreCount');
+const percent = document.getElementById('percentScore');
 
-myButton.onclick = () => {
+myButton.addEventListener('click', () => {
     const userName = prompt('Hi there! What is your name?');
     
     const myConfirmation = prompt(userName + ', Do you want to take my quiz');
@@ -49,13 +52,22 @@ myButton.onclick = () => {
         }
 
         if (userIsCorrect3) {
-            scoreCount +-;
+            scoreCount += 1;
         } else {
             scoreCount;
         }
 
+        const showScore = document.getElementById('score');
+        showScore.classList.remove('hidden');
 
-        alert(userName + ', you did great! You got a ' + scoreCount + '/3 on this quiz!');
+        let percentScore = Math.floor(scoreCount / 3 * 100);
+
+        user.textContent = userName;
+        score.textContent = scoreCount;
+        percent.textContent = percentScore;
+
+
+       // (userName + ', you did great! You got a ' + scoreCount + '/3 on this quiz!');
 
     } else {
         alert('Cool, I guess you dont want to take my quiz.');
@@ -63,4 +75,4 @@ myButton.onclick = () => {
 
 
 
-};
+});
