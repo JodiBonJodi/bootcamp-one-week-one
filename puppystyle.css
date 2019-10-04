@@ -1,0 +1,16 @@
+.puppy-cafe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: lightblue;
+    height: 500px;
+}
+
+.puppy {
+    height: 100px;
+    background-color: lightcoral;
+    width: 200px;
+    border: dotted 1px yellow;
+}
+

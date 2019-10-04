@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #cfdbcb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: #35182e
+}
+
+ol {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #35182e;
+    color: #cfdbcd;
+    font-size: 30px;
+    width: 400px;
+}
+
+img {
+    border: solid 1px black;
+    border-radius: 22%;
+}
+
+.intro{
+    width: 1000px;
+}
+
+.studiedlizard {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.lizardtext {
+    margin-right: 25px;
+    width: 700px;
+}
+
+
+.playsderby {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.derbytext {
+    margin-right: 25px;
+    width: 700px;
+}
+
+.ro {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.roseytext {
+    margin-right: 25px;
+    width: 700px;
+}
+
+.lizardpic {
+    height: 300px;
+}
+
+.derbypic {
+    height: 300px;;
+}
+
+.roseypic {
+    height: 325px;
+}
+
+
+.hidden {
+    opacity: 0;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 35px;
+}
