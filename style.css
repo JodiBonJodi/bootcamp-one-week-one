@@ -26,6 +26,12 @@ button {
     color: #cfdbcd;
     font-size: 30px;
     width: 400px;
+
+}
+
+.take-quiz-button {
+    display: flex;
+    justify-content: center;
 }
 
 img {
